@@ -1,16 +1,16 @@
-### Hi there 👋
+```python
+class Reevan():
+    
+  def __init__(self):
+    self.name = "Reevan";
+    self.username = "reevansxyz";
+    self.location = "Kuala Lumpur, Malaysia";
+    self.twitter = "@reevansxyz";
+    self.web = "https://reevans.xyz";
+  
+  def __str__(self):
+    return self.name
 
-<!--
-**reevansxyz/reevansxyz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+if __name__ == '__main__':
+    me = Reevan()
+```
